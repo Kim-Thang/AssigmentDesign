@@ -1,0 +1,142 @@
+
+:root {
+    --text-color: #0163B3;
+}
+
+.container {
+    height: 100%;
+}
+.container__left {
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(151.25deg, #5DD6FF -7.2%, #188CB3 109.82%);
+}
+
+.container__left-image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.container__left-image img {
+    width: 60%;
+}
+
+.container__right {
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+.container__right-form {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.form {
+    width: 450px;
+    min-height: 100px;
+    align-self: center;
+}
+.form__heading { 
+    margin-bottom: 40px;
+}
+
+.form__heading h2 {
+    color: #344054;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.form__heading p {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form__group {
+    width: 360px;
+    margin: auto;
+}
+.form__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.form__label {
+    color: #5A5A5A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    border: 2px solid #E0E0E0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+}
+
+
+.form__input input {
+    border: none;
+    outline: none;
+    flex: 2;
+    padding-right: 20px;
+}
+
+.form__request {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 40px 0;
+}
+.form__request a {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.form__forget label{
+    color: #5A5A5A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sign-up {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #344054;
+}
+.sign-up a {
+    color: var(--text-color);
+}
+
+.btn--large__enable {
+    padding: 12px 154px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 44px;
+    width: 360px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: var(--text-color);
+    color: #ffffff;
+}
+.btn--small__enable {
+    background-color: var(--text-color);
+    color: #ffffff;
+    width: 78px;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
