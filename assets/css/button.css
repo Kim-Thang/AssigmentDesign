@@ -1,10 +1,9 @@
 
 .btn--large_enabled {
-    padding: 12px 154px;
+    padding: 12px 0px;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    height: 44px;
     width: 360px;
     border-radius: 8px;
     outline: none;
@@ -23,11 +22,10 @@
     border-radius: 8px;
 }
 .btn--large_disabled {
-    padding: 12px 154px;
+    padding: 12px 0;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    height: 44px;
     width: 360px;
     border-radius: 8px;
     outline: none;
