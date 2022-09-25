@@ -55,6 +55,14 @@
 }
 
 
+.btn--normal {
+    color: #0074C9;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 30px;
+}
+
 .btn--large_enabled:hover
 ,.btn--small_enabled:hover{
     background-color: var(--hover-color);

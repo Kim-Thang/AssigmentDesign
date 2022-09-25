@@ -1,0 +1,50 @@
+.profile__header {
+    height: 74px;
+    padding: 15px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+}
+.header__left {
+    background: url(../images/logo.png) no-repeat;
+    width: 220px;
+    height: 44px;
+}
+.header__right {
+    display: flex;
+}
+
+.header__search {
+    width: 360px;
+    padding: 6px 14px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__search input {
+    border: none;
+    outline: none;
+    flex: 2;
+}
+.header__search button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+.header__icons button {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header__icons button img{
+    width: 24px;
+    height: 24px;
+}

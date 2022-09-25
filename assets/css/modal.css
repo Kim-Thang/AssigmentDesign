@@ -1,0 +1,112 @@
+
+#btn {
+    padding: 10px;
+    font-size: 20px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0 , 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    animation-name: animationTop;
+    animation-duration: 0.4s;
+}
+.modal__container {
+    position: relative;
+    background-color: #fff;
+    width: 732px;
+    min-height: 460px;  
+    box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14), 0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.modal__header {
+    font-size: 24px;
+    color:#242424; 
+    padding: 24px;
+}
+.modal__header p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.modal__upload {
+    position: relative;
+    margin: 0 16px;
+    height: 264px;
+}
+
+.modal__input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #EBF4FB;
+    border: 1px dashed #5590E5;
+    border-radius: 10px;
+}
+
+.form__content p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color:  #5a5a5a;
+}
+.form__content p span {
+    color: #0163B3;
+}
+.form__content img {
+    width: 45px;
+    height: 58px;
+}
+
+.modal__request {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5A5A5A;
+    margin: 24px 16px 12px 16px;
+}
+.modal__request span {
+    color: #0163B3;
+}
+.btn__confirm {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 16px;
+}
+
+
+.open {
+    display: flex
+}
+
+
+@keyframes animationTop {
+    from {
+        top: -920px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
