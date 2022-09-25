@@ -1,24 +1,21 @@
-
 .btn--large_enabled {
-    padding: 12px 0px;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     width: 360px;
     border-radius: 8px;
-    outline: none;
-    border: none;
     background-color: var(--enabled-color);
     color: #ffffff;
+    padding: 12px 0px;
+    margin: 10px 0;
+
 }
 .btn--small_enabled {
     background-color: var(--enabled-color);
     color: #ffffff;
     width: 78px;
     padding: 9px 0;
-    outline: none;
     font-size: 16px;
-    border: none;
     border-radius: 8px;
 }
 .btn--large_disabled {
@@ -28,8 +25,6 @@
     line-height: 20px;
     width: 360px;
     border-radius: 8px;
-    outline: none;
-    border: none;
     background-color: var(--disabled-color);
     color: #ADADAD;
 }
@@ -40,9 +35,22 @@
     font-size: 16px;
     font-weight: 500;
     width: 78px;
+    border-radius: 8px; 
+}
+
+
+.btn--large_focused {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 360px;
+    background-color: var(--white-color);
+    color: var(--focused-color);
+    border: 2px solid var(--focused-color);
     border-radius: 8px;
-    outline: none;
-    border: none;
+    padding: 12px 0px;
+    margin: 10px 0;
+
 }
 
 

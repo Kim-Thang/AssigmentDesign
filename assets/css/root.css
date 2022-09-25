@@ -17,13 +17,14 @@ a {
 button {
     outline: none;
     border: none;
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 
 :root {
     --enabled-color: #0163B3;
     --disabled-color: #E6E6E6;
     --hover-color: #5590E5;
-    --focus-color: 
+    --focused-color:   #0163b2;
     --pressed-color: #002E68;
+    --white-color: #ffffff;
 }
