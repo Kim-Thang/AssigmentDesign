@@ -1,11 +1,4 @@
 
-:root {
-    --enable-color: #0163B3;
-    --disable-color: #E6E6E6;
-    --hover-color: #5590E5;
-    --focus-color: 
-    --pressed-color: #002E68;
-}
 .btn--large_enabled {
     padding: 12px 154px;
     font-size: 16px;
@@ -16,11 +9,11 @@
     border-radius: 8px;
     outline: none;
     border: none;
-    background-color: var(--enable-color);
+    background-color: var(--enabled-color);
     color: #ffffff;
 }
 .btn--small_enabled {
-    background-color: var(--enable-color);
+    background-color: var(--enabled-color);
     color: #ffffff;
     width: 78px;
     padding: 9px 0;
@@ -39,11 +32,11 @@
     border-radius: 8px;
     outline: none;
     border: none;
-    background-color: var(--disable-color);
+    background-color: var(--disabled-color);
     color: #ADADAD;
 }
 .btn--small_disabled {
-    background-color: var(--disable-color);
+    background-color: var(--disabled-color);
     color: #ADADAD;
     padding: 9px 0;
     font-size: 16px;

@@ -19,3 +19,11 @@ button {
     border: none;
     background-color: #ffffff;
 }
+
+:root {
+    --enabled-color: #0163B3;
+    --disabled-color: #E6E6E6;
+    --hover-color: #5590E5;
+    --focus-color: 
+    --pressed-color: #002E68;
+}

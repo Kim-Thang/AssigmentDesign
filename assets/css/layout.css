@@ -1,0 +1,41 @@
+.container {
+    height: 100%;
+}
+.container__left {
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(151.25deg, #5DD6FF -7.2%, #188CB3 109.82%);
+}
+
+.container__left-image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.container__left-image img {
+    width: 60%;
+}
+
+.container__right {
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+.container__right-form {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+@media only screen and (max-width: 786px) {
+ 
+    .container__left {
+        display: none;
+    }
+    .container__right {
+        width: 100%;
+    }
+}
+
