@@ -29,40 +29,40 @@
                     </div>
                     <div class="form__group margin-auto">
                         <div class="form__info">
-                            <label for="email" class="form__label">Email</label>
+                            <label id="label__email-login" for="email" class="form__label">Email</label>
                             <div class="form__input">
-                                <input id="email" name="email" type="text" class="form__value" placeholder="name@netpower.no">
+                                <input id="email" name="email" type="text" class="form__value" required placeholder="name@netpower.no">
                                 <button class="btn-clear">
-                                    <img src="../../assets/images/Clear.svg" alt="">
+                                    <img src="../../assets/images/Clear.svg" alt="clear">
                                 </button>
                             </div>
                         </div>
                         <div class="form__info">
-                            <label for="password" class="form__label">Password</label>
+                            <label id="label__password-login" for="password" class="form__label">Password</label>
                             <div class="form__input">
-                                <input id="password" name="password" type="password" class="form__value" placeholder="••••••••">
+                                <input id="password" name="password" type="password" class="form__value" required placeholder="••••••••">
                                 <button class="btn-show">
-                                    <img src="../../assets/images/Show.svg" alt="">
+                                    <img class="show-hide" src="../../assets/images/Show.svg" alt="show">
                                 </button>
                             </div>
                         </div>
                         <div class="form__request">
                             <div class="form__forget">
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Remember me</label><br>
+                                <input type="checkbox" id="remember" name="remember" required value="remember">
+                                <label for="remember">Remember me</label><br>
                             </div>
                                 <a href="../forgot_passoword/recover_password.html" target="_blank">Forget Password?</a>
                         </div>
                         <button class="btn--large_enabled btn-submit-login">Login</button>
                         <p class="sign-up">
                             Don't have an account? 
-                            <a href="">Sign up</a>
+                            <a href="../signup/signup.html">Sign up</a>
                         </p>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    <script src="../../assets/js/index.js"></script>
+    <script type="module" src="../../assets/js/validator_formLogin.js"></script>
 </body>
 </html>

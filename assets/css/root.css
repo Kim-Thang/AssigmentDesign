@@ -28,3 +28,10 @@ button {
     --pressed-color: #002E68;
     --white-color: #ffffff;
 }
+
+.error {
+    border-color: #C62828;
+}
+.text_error {
+    color: #C62828 !important;
+}

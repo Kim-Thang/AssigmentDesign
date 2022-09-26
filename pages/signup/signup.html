@@ -31,7 +31,7 @@
                         <div class="form__info">
                             <label for="fullname" class="form__label">Name</label>
                             <div class="form__input">
-                                <input id="fullname" name="fullname" type="text" class="form__value" placeholder="Dat Bui">
+                                <input id="fullname" name="fullname" required type="text" class="form__value" placeholder="Dat Bui">
                                 <button class="btn-clear">
                                     <img src="../../assets/images/Clear.svg" alt="clear">
                                 </button>
@@ -40,7 +40,7 @@
                         <div class="form__info">
                             <label for="email" class="form__label">Email</label>
                             <div class="form__input">
-                                <input id="email" name="email" type="text" class="form__value" placeholder="name@netpower.no">
+                                <input id="email" name="email" type="text" required class="form__value" placeholder="name@netpower.no">
                                 <button class="btn-clear">
                                     <img src="../../assets/images/Clear.svg" alt="clear">
                                 </button>
@@ -49,39 +49,41 @@
                         <div class="form__info">
                             <label for="password" class="form__label">Password</label>
                             <div class="form__input">
-                                <input id="password" name="password" type="password" class="form__value" placeholder="••••••••">
+                                <input id="password" name="password" type="password"  required class="form__value" placeholder="••••••••">
                                 <button class="btn-show">
-                                    <img src="../../assets/images/Hide.svg" alt="">
+                                    <img src="../../assets/images/Show.svg" class="show-hide" alt="show-hide">
                                 </button>
                             </div>
                         </div>
                         <div class="form__info">
                             <label for="confirm_password" class="form__label">Confirm password</label>
                             <div class="form__input">
-                                <input id="confirm_password" name="confirm_password" type="password" class="form__value" placeholder="••••••••">
+                                <input id="confirm_password" name="confirm_password" type="password" required class="form__value" placeholder="••••••••">
                                 <button class="btn-show">
-                                    <img src="../../assets/images/Hide.svg" alt="">
+                                    <img src="../../assets/images/Show.svg" class="show-hide" alt="show-hide">
                                 </button>
                             </div>
                         </div>
                        
-                        <button class="btn--large_enabled">Sign up</button>
+                        <button class="btn--large_enabled  btn-submit-signup">Sign up</button>
                         <div class="form__request">
                             <div class="form__forget">
-                                <input type="checkbox" id="" name="" value="">
+                                <input type="checkbox" id="checkbox" name="" value="">
                                 <label for="">I agree with terms and conditions</label><br>
                             </div>
                         </div>
                         <div class="diveder"></div>
-                        <button class="btn--large_focused">Sign in</button>
+                        <button class="btn--large_focused btn-signin">Sign in</button>
                         <p class="sign-up">
                             You forgot password?
-                            <a href="">Recover password</a>
+                            <a href="http://127.0.0.1:5500/pages/forgot_passoword/recover_password.html">Recover password</a>
                         </p>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    <script type="module" src="../../assets/js/validator_formSignup.js"></script>
+
 </body>
 </html>
